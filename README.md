@@ -12,7 +12,10 @@ SRP is a secure password-based authentication and key-exchange protocol. It solv
 
 ```objectivec
 // private constants
+
+// N is a large prime number germanium prime. Shared
 NSString *N = @"115b8b692e0e045692cf280b436735c77a5a9e8a9e7ed56c965f87db5b2a2ece3";
+// G is any integer. Multiplicative group. Shared
 NSString *g = @"02";
 ALOSRPPrivateData *privateData = [ALOSRPPrivateData privateDataWithN:N g:g];
 
