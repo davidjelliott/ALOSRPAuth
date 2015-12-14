@@ -18,8 +18,5 @@
   "source_files": "*.{h,m,c}",
   "requires_arc": true,
   "dependencies": {
-    "OpenSSL": [
-      "~> 1.0"
-    ]
   }
 }
